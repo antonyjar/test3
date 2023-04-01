@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .topo{
+            background-color: gray;
+            padding: 15px;
+            text-align: center;
+        }
+        .menu{
+            background-color: #333; 
+            overflow: hidden;
+        }
+        .menu a {
+            color: white;
+            padding: 5px 10px;
+            float: left;
+            text-decoration: none;
+         }
+         .coluna-50{
+            float:left;
+            width:50%;
+            padding: 15px;
+
+         }
+    </style>
+</head>
+<body>
+    <!--TOPO-->
+    <header class="topo">
+        <h1>Topo</h1>
+        <p>Aqui fica o topo</p>
+    </header>
+    
+    <!--MENU-->
+    <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="audio.html">Áudios</a>
+        <a href="video.html">Vídeos</a>
+        <a href="imagem.html">Imagens</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <!--COLUNA 1-->
+    <section class="coluna-50">
+        <h2>Coluna</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit tenetur atque beatae, aperiam aliquam dolorem doloribus modi officia temporibus fuga assumenda, pariatur porro eveniet natus, cum laudantium voluptates enim neque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit tenetur atque beatae, aperiam aliquam dolorem doloribus modi officia temporibus fuga assumenda, pariatur porro eveniet natus, cum laudantium voluptates enim neque.</p></article>
+    </section>
+
+    <!--COLUNA 2-->
+    <section class="coluna-50">
+        <article>
+        <h2>Coluna</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit tenetur atque beatae, aperiam aliquam dolorem doloribus modi officia temporibus fuga assumenda, pariatur porro eveniet natus, cum laudantium voluptates enim neque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit tenetur atque beatae, aperiam aliquam dolorem doloribus modi officia temporibus fuga assumenda, pariatur porro eveniet natus, cum laudantium voluptates enim neque.</p>
+    </section>
+
+    <!--RODAPÉ-->
+    <footer class="rodape-100"></footer>
+
+    </footer>
+
+</body>
+</html>

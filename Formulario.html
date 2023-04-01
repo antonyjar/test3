@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <!--legenda Nome-->
+        <label for="nome_">Nome:</label>
+        <!--input type text nome-->
+        <input id="nome_" type="text" placeholder="Digite seu nome" required><br><br>
+
+        <!--legenda email-->
+        <label for="email_">Email:</label>
+        <!--input type email-->
+        <input id="email_" type="email" placeholder="Digite seu email" required><br><br>
+
+        <!--legenda senha-->
+        <label for="password_">Senha:</label>
+        <!--input type password-->
+        <input id="password_" type="password" placeholder="Digite sua senha" required><br><br>
+
+        <h2>Quadrinhos</h2>
+
+        <input type="radio" id="sand" name="comic" value="Sandman">
+        <label for="sand">Sandman</label>
+
+        <br><br>
+
+        <input type="radio" id="moe" name="comic" value="Moebius">
+        <label for="moe">Moebius</label>
+
+        <br><br>
+
+        <input type="radio" id="SWT" name="comic" value="Swamp Thing">
+        <label for="SWT">Swamp Thing</label>
+
+        <br><br>
+
+        <h2>Livros</h2>
+
+        <input type="checkbox" name="item1" value="To Kill a Mockingbird">
+        <label for="item1">To Kill a Mockingbird</label><br><br>
+
+        <input type="checkbox" name="item2" value="The Hobbit">
+        <label for="item2">The Hobbit</label><br><br>
+
+        <input type="checkbox" name="item3" value="Dom Casmurro">
+        <label for="item3">Dom Casmurro
+        </label><br><br>
+
+        <h2>Escolha uma banda</h2>
+        <select name="bandas">
+            <option selected disabled>Escolha uma banda</option>
+            <option value="Lush">Lush</option>
+            <option value="Cocteau Twins">Cocteau Twins</option>
+            <option value="Mazzystar">Mazzystar</option>
+            <option value="Bauhaus">Bauhaus</option>
+            <option value="This Mortal Coil">This Mortal Coil</option>
+            <option value="Hideous Towns">Hideous Towns</option>
+            <option value="Beach House">Beach House</option>
+        </select><br><br>
+
+         <h2>Escreva para nós</h2>
+
+        <textarea rows="20" cols="60" placeholder="Mande seu feedback"></textarea><br><br>
+
+        <!--input type submit de Enviar Formulário-->
+        <input type="submit" value="Enviar"><br><br>
+
+        <button>Clique aqui</button>
+        
+    </form>
+    <hr>
+    <br>
+    <a href="index.html">Voltar ao início</a>
+    
+</body>
+</html>
